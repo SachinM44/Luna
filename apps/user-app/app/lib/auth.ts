@@ -39,7 +39,7 @@ export const authOptions = {
                         password: hashedPassword
                     }
                 });
-            
+                //i should add the otp authenication
                 return {
                     id: user.id.toString(),
                     name: user.name,
